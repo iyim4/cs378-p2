@@ -87,7 +87,6 @@ function App() {
   return (
     <div>
       <Header title="Japanese Menu" />
-      <p class="text-center tagline">Delicious Japanese Cuisine!</p>
       <div className="menu">
         {menuItems.map((item) => (
           <MenuItem item={item} />
